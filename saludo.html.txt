@@ -1,0 +1,16 @@
+<HTML>
+<HEAD>
+<TITLE> Saludo </TITLE>
+  function saludo() {
+        alert(´Hola ${name]´);
+    }
+</HEAD>
+<BODY>
+  <FORM>
+    <input type="text" id="name">
+    <label for="name" placeholder="Ingresar nombre">
+    <input type="button" onClick="saludo()">
+  </FORM>
+</BODY>
+</HTML>
+
